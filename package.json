@@ -1,0 +1,6 @@
+{
+  "scripts": { "sass": "node_modules/.bin/sass scss/style.scss css/style.css"},
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
