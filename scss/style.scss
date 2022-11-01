@@ -1,0 +1,18 @@
+@import "reset";
+@import "variables";
+@import "responsive";
+
+html,
+body {
+  background-color: $c-white;
+  height: 100vh;
+}
+
+body {
+  
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
