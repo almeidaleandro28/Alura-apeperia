@@ -1,0 +1,62 @@
+.header {
+  background-color: $c-bg-mobile;
+  color: $c-white;
+  @include device( phone ){
+    border-bottom: 1px solid $c-border;
+  }
+  .container-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include device( phone ){
+      flex-direction: column;
+      
+    }
+  }
+}
+
+.branch {
+  @include device( phone ) {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .branch-logo {
+
+  }
+  .branch-name {
+
+  }
+}
+
+.nav{
+  @include device( phone ){
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    // width: 95%;
+    // height: 50px;
+  }
+}
+
+.nav-items {
+  @include device( phone ){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .nav-item {
+    @include device( phone ){
+      padding: .5rem 0;
+    }
+  }
+  .nav-link {
+    color: $c-white;
+    padding: 1rem;
+    text-transform: capitalize;
+  }
+}

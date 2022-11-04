@@ -1,6 +1,8 @@
 @import "reset";
 @import "variables";
 @import "responsive";
+@import "header";
+@import "hero";
 
 html,
 body {
@@ -13,6 +15,25 @@ body {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+ height: 100%;
 }
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  @include device( phone ){
+    width: 100%;
+  }
+}
+
+// all
+a {
+  text-decoration: none;
+  
+}
+
+// titles
+h1 {}
+h2 {}
+h3 {}

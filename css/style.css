@@ -58,6 +58,66 @@ table {
   padding: 0;
 }
 
+.header {
+  background-color: #00161C;
+  color: #FFF;
+}
+@media screen and (max-width: 576px) {
+  .header {
+    border-bottom: 1px solid #103D4A;
+  }
+}
+.header .container-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .header .container-header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .branch {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav-items .nav-item {
+    padding: 0.5rem 0;
+  }
+}
+.nav-items .nav-link {
+  color: #FFF;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+
+.hero {
+  background-color: #00161C;
+}
+
 html,
 body {
   background-color: #FFF;
@@ -65,8 +125,22 @@ body {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
