@@ -33,7 +33,17 @@ a {
   
 }
 
+.btn {}
+
 // titles
-h1 {}
-h2 {}
+h1 {
+  font-family: $f-montserrat;
+  font-size: map-get($f-font-size , "big" );
+  @include device( phone ){
+    font-size: map-get($f-font-size , "medium" );
+  }
+}
+h2 {
+  
+}
 h3 {}

@@ -1,3 +1,40 @@
 .hero {
   background-color: $c-bg-mobile;
+  color: $c-white;
+  text-align: center;
+  height: auto;
+  .container-hero{
+    width: 95%;
+  }
+}
+
+.hero-header {
+  .hero-title {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+  }
+  .hero-content{
+    .hero-content-text{
+      font-family: $f-openSans;
+      @include device( phone ){ 
+        line-height: 2rem;
+      }
+    }
+  }
+
+
+  .hero-footer {
+    border: 1px solid $c-white;
+    .btn-plans {
+      font-family: $f-openSans;
+      @include device( phone ) {
+        border: 1px solid $c-white;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+      }
+    }
+   
+
+  }
 }

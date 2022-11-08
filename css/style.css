@@ -116,6 +116,39 @@ table {
 
 .hero {
   background-color: #00161C;
+  color: #FFF;
+  text-align: center;
+  height: auto;
+}
+.hero .container-hero {
+  width: 95%;
+}
+
+.hero-header .hero-title {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+.hero-header .hero-content .hero-content-text {
+  font-family: "Open Sans", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .hero-header .hero-content .hero-content-text {
+    line-height: 2rem;
+  }
+}
+.hero-header .hero-footer {
+  border: 1px solid #FFF;
+}
+.hero-header .hero-footer .btn-plans {
+  font-family: "Open Sans", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .hero-header .hero-footer .btn-plans {
+    border: 1px solid #FFF;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
 }
 
 html,
@@ -141,6 +174,16 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.441rem;
+}
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.953rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
