@@ -1,0 +1,36 @@
+.highlights{
+  background-color: $-c-blue-light;
+  height: max-content;
+  padding-bottom: 2rem;
+  text-align: center;
+  @include device( phone ){
+    .container {
+      width: 100%;
+    }
+  }
+
+  .highlights-title{
+    text-align: center;
+    font-family: $f-montserrat;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .highlights-btn{
+    border: 1px solid $c-red-dark;
+    border-radius: 5px;
+    color: $c-red-dark;
+   
+    display: inline-block;
+    @include device( phone ){
+      padding: 6px 10px;
+     
+    }
+  }
+}
+
+.highlight{
+  margin-bottom: 1rem;
+  .highlight-img{}
+  .highlight-description{}
+}
