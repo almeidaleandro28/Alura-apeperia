@@ -3,6 +3,8 @@
 @import "responsive";
 @import "header";
 @import "hero";
+@import "highlights";
+
 
 html,
 body {
@@ -47,3 +49,9 @@ h2 {
   
 }
 h3 {}
+
+// img
+img {
+  width: 100%;
+  height: auto;
+}

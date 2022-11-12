@@ -151,6 +151,38 @@ table {
   }
 }
 
+.highlights {
+  background-color: #DFE3F5;
+  height: max-content;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .highlights .container {
+    width: 100%;
+  }
+}
+.highlights .highlights-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.highlights .highlights-btn {
+  border: 1px solid #B72E2E;
+  border-radius: 5px;
+  color: #B72E2E;
+  display: inline-block;
+}
+@media screen and (max-width: 576px) {
+  .highlights .highlights-btn {
+    padding: 6px 10px;
+  }
+}
+
+.highlight {
+  margin-bottom: 1rem;
+}
 html,
 body {
   background-color: #FFF;
@@ -184,6 +216,11 @@ h1 {
   h1 {
     font-size: 1.953rem;
   }
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
