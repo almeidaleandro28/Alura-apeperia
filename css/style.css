@@ -62,7 +62,7 @@ table {
   background-color: #00161C;
   color: #FFF;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .header {
     border-bottom: 1px solid #103D4A;
   }
@@ -73,13 +73,13 @@ table {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .header .container-header {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .branch {
     align-items: center;
     display: flex;
@@ -87,7 +87,7 @@ table {
     justify-content: center;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .nav {
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@ table {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .nav-items {
     display: flex;
     flex-direction: row;
@@ -103,7 +103,7 @@ table {
     justify-content: space-around;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .nav-items .nav-item {
     padding: 0.5rem 0;
   }
@@ -132,7 +132,7 @@ table {
 .hero-header .hero-content .hero-content-text {
   font-family: "Open Sans", sans-serif;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .hero-header .hero-content .hero-content-text {
     line-height: 2rem;
   }
@@ -143,7 +143,7 @@ table {
 .hero-header .hero-footer .btn-plans {
   font-family: "Open Sans", sans-serif;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .hero-header .hero-footer .btn-plans {
     border: 1px solid #FFF;
     padding-bottom: 2rem;
@@ -157,7 +157,7 @@ table {
   padding-bottom: 2rem;
   text-align: center;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .highlights .container {
     width: 100%;
   }
@@ -174,7 +174,7 @@ table {
   color: #B72E2E;
   display: inline-block;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .highlights .highlights-btn {
     padding: 6px 10px;
   }
@@ -186,15 +186,18 @@ table {
 .highlight .highlight-img {
   max-width: 542px;
 }
-.differential .differential-header {
+.differential-header {
   display: flex;
   flex-direction: row;
+  padding-left: 2rem;
 }
-.differential .differential-header-img {
+.differential-header .differential-header-img {
   width: 32px;
   height: 40px;
 }
-
+.differential-content {
+  padding-left: 2rem;
+}
 html,
 body {
   background-color: #FFF;
@@ -210,7 +213,7 @@ body {
   position: relative;
   width: 90%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .container {
     width: 100%;
   }
@@ -224,7 +227,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.441rem;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   h1 {
     font-size: 1.953rem;
   }
