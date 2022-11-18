@@ -183,6 +183,18 @@ table {
 .highlight {
   margin-bottom: 1rem;
 }
+.highlight .highlight-img {
+  max-width: 542px;
+}
+.differential .differential-header {
+  display: flex;
+  flex-direction: row;
+}
+.differential .differential-header-img {
+  width: 32px;
+  height: 40px;
+}
+
 html,
 body {
   background-color: #FFF;
