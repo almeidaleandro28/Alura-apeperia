@@ -186,18 +186,30 @@ table {
 .highlight .highlight-img {
   max-width: 542px;
 }
+.differentials {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .differential-header {
+  align-items: center;
   display: flex;
   flex-direction: row;
+  margin-bottom: 0.5rem;
   padding-left: 2rem;
 }
 .differential-header .differential-header-img {
-  width: 32px;
   height: 40px;
+  width: 32px;
 }
-.differential-content {
-  padding-left: 2rem;
+.differential-header .differential-header-title {
+  padding-left: 0.5rem;
 }
+
+.differential-content .differential-content-text {
+  padding-left: 4rem;
+}
+
 html,
 body {
   background-color: #FFF;

@@ -1,25 +1,32 @@
-.differentials{}
+.differentials{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 
 .differential{}
 
 
 .differential-header{
+	align-items: center;
   display: flex;
   flex-direction: row;
-	align-items: baseline;
+	margin-bottom: 0.5rem;
 	padding-left: 2rem;
 	.differential-header-img {
-		width: 32px;
 		height: 40px;
+		width: 32px;
 	}
   .differential-header-title  {
+		padding-left: 0.5rem;
   }
 }
 
   
 .differential-content{
-  padding-left: 2rem;
-  .differential-content-text {}
+  
+  .differential-content-text {
+		padding-left: 4rem;
+	}
 }
 
 
